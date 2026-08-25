@@ -40,18 +40,25 @@
 </head>
 <body>
 
-    <section>
+    <h1>My Python 1.0</h1>
 
-    <div id="box">
-        <br>
-        <h1 div class="fw-bold">🐍 My Python 1.0 💼</h1>
+    <py-script>
+        from pyscript import display
 
-        <div id="div1">
-            <script type="py" src="main.py"></script>
-            <br>
-        </div>
-    </div>
-    </section>
+        display('Hello, World!')  # this will be seen in the web page
+    </py-script>
+
+    <div id="div1"></div>
+
+    <div id="div2"></div>
+
+    <script type="py" src="main.py">
+        
+    </script>
+
+    <!--OLD:
+        <py-script src="main.py"></py-script>
+    -->
 
 </body>
 </html>
